@@ -1,0 +1,20 @@
+Use type hints for all function arguments and return values.
+Prefer list comprehensions over map/filter for readability.
+Never use `except:` bare except; always catch specific exceptions.
+Use `with` statements for file handles and locks.
+Keep functions small – ideally under 20 lines.
+Avoid mutable default arguments (e.g., def f(x=[])).
+Use f-strings instead of `%` or `.format()` for readability.
+Add docstrings to all public functions and classes.
+Follow PEP 8 naming conventions: snake_case for functions, CapWords for classes.
+Use `is` for comparing with None, not `==`.
+Use `enumerate` instead of `range(len(...))`.
+Use `if __name__ == "__main__"` to guard execution.
+Use `pathlib` for file paths instead of `os.path`.
+Use `dataclasses` for simple data containers.
+Prefer `isinstance()` over `type()` for type checking.
+Use `@contextmanager` for custom context managers.
+Avoid deep nesting; use early returns.
+Use `**kwargs` sparingly and document expected keys.
+Use `logging` instead of `print` for production code.
+Use `pytest` for testing; name test functions `test_*`.
